@@ -22,7 +22,7 @@
 > Clone the repository
 > 
 > ```
-> git clone https://github.com/SimonGideon/awesome-books
+> git clone https://github.com/SimonGideon/webpack.git
 > ```
 > 
 > Navigate to the folder
