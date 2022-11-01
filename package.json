@@ -2,12 +2,11 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SimonGideon/webpack.git"
@@ -19,8 +18,11 @@
     "url": "https://github.com/SimonGideon/webpack/issues"
   },
   "homepage": "https://github.com/SimonGideon/webpack#readme",
-  "dependencies": {
-    "html-webpack-plugin": "^5.5.0",
+  "devDependencies": {
+    "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
