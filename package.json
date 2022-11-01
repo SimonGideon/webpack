@@ -2,10 +2,11 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,19 @@
   },
   "homepage": "https://github.com/SimonGideon/webpack#readme",
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^9.0.1",
+    "css-loader": "^6.7.1",
+    "html": "^1.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-plugin": "^1.0.5"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "babe": "^0.0.1"
   }
 }
