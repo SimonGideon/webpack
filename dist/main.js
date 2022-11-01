@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const title = document.createElement('h3');\ntitle.titleContent = 'Webpack made easy!';\n\nconst page = document.querySelector('body');\npage.append(title);\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("const title = document.createElement('h3');\ntitle.textContent = 'Webpack made easy!';\n\nconst page = document.querySelector('body');\npage.append(title);\n\n//# sourceURL=webpack://webpack/./src/index.js?");
 
 /***/ })
 
