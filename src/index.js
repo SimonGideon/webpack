@@ -1,13 +1,5 @@
-import _ from 'lodash';
+const title = document.createElement('h3');
+title.titleContent = 'Webpack made easy!';
 
- function component() {
-   const element = document.createElement('div');
-
-  // Lodash, currently included via a script, is required for this line to work
-  // Lodash, now imported by this script
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-   return element;
- }
-
- document.body.appendChild(component());
+const page = document.querySelector('body');
+page.append(title);
