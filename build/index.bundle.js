@@ -1,1 +1,0 @@
-(()=>{const e=document.createElement("h3");e.titleContent="Webpack made easy!",document.querySelector("body").append(e)})();
