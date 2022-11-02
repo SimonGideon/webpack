@@ -15,7 +15,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Weibeans is awesome',
+      title: 'This is my tempate',
+      template: './src/index.html',
     }),
   ],
 
