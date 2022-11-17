@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/SimonGideon/webpack#readme",
   "devDependencies": {
-    "@babel/core": "^7.19.6",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.19.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^9.0.1",
@@ -29,6 +30,7 @@
     "eslint-plugin-import": "^2.26.0",
     "hint": "^7.1.3",
     "html": "^1.0.0",
+    "html-plugin": "^0.1.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
